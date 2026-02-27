@@ -21,7 +21,7 @@ DynCal changes the Calendar app icon dynamically based on the current day.
 
 %install
 mkdir -p %{buildroot}/usr/share/harbour-dyncal
-cp -r harbour-dyncal/usr/share/harbour-dyncal %{buildroot}/usr/share/harbour-dyncal
+cp -r harbour-dyncal/usr/share/harbour-dyncal/* %{buildroot}/usr/share/harbour-dyncal
 
 %files
 %defattr(-,root,root,-)
